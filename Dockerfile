@@ -13,4 +13,4 @@ RUN ./mvnw clean package -DskipTests
 EXPOSE 8080
 
 # Lancer l'application avec le bon nom du JAR
-CMD ["java", "-jar", "target/ocpimport-0.0.1-SNAPSHOT.jar"]
+CMD java -jar target/ocpimport-0.0.1-SNAPSHOT.jar
